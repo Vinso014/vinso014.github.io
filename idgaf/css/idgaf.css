@@ -60,6 +60,17 @@ body,html {
   	background-size: cover;
 }
 
+.down { /*styling for the down arrows*/
+	position: relative;
+	top: 42%;
+	left: 47%;
+}
+
+.up{ /*styling for the up arrows*/
+	position: relative;
+	top: 30%;
+	left: 47%;
+}
 
 .section { /* universal styles for all sections */
 	width: 100%;
@@ -73,11 +84,12 @@ body,html {
 	font-weight: 400;
 	line-height: 80px;
 	color: white;
-	width: 900px;
+	width: 800px;
+	text-align: center;
 
 	position: relative;
 	top: 35%;
-	left: 600px;
+	left: 30%;
 }
 
 #navigation {

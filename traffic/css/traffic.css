@@ -25,6 +25,18 @@ body,html {
   	background-size: cover;
 }
 
+.down { /*styling for the down arrows*/
+	position: relative;
+	top: 42%;
+	left: 47%;
+}
+
+.up{ /*styling for the up arrows*/
+	position: relative;
+	top: 30%;
+	left: 47%;
+}
+
 .section { /* universal styles for all sections */
 	width: 100%;
 	height: 45%; /* this percentage will change depending on the number of sections you have */
@@ -38,9 +50,11 @@ body,html {
 	line-height: 80px;
 	color: white;
 	width: 800px;
+	text-align: center;
+
 	position: relative;
 	top: 35%;
-	left: 600px;
+	left: 30%;
 }
 
 #navigation {
